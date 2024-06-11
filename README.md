@@ -1,0 +1,1 @@
+Visualization of changes in brightness and saturation of Tailwind's color palette
