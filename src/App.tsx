@@ -1,7 +1,7 @@
-import './App.css';
-import { ColorLineChart } from './components/line-chart';
-import { COLORS } from './constants/color-codes';
-import { colorPaletteToDetails } from './helpers/color';
+import "./App.css";
+import { ColorLineChart } from "./components/line-chart";
+import { COLORS } from "./constants/color-codes";
+import { colorPaletteToDetails } from "./helpers/color";
 
 const colors = Object.entries(COLORS).map(([colorName, colorPalette]) => {
   const colorDetails = colorPaletteToDetails(colorPalette);
@@ -26,8 +26,8 @@ function App() {
                     key={number}
                     style={{
                       backgroundColor: code,
-                      textAlign: 'center',
-                      color: '#888',
+                      textAlign: "center",
+                      color: "#888",
                     }}
                   >
                     {number}

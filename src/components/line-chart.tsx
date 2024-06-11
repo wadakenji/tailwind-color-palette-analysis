@@ -1,5 +1,5 @@
-import { FC } from 'react';
-import { LineChart, XAxis, YAxis, CartesianGrid, Line } from 'recharts';
+import { FC } from "react";
+import { LineChart, XAxis, YAxis, CartesianGrid, Line } from "recharts";
 type Props = {
   data: { brightness: number; saturation: number; number: string }[];
 };
